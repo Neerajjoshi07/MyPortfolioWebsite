@@ -4,7 +4,7 @@ import "./FormStyles.css";
 const Form = () => {
  
   return <div className="form">
-      <form method="POST" name="contact" data-netlify="true" >
+      <form method="POST" name="contact" data-netlify="true" onSubmit>
         
         <input type="hidden" name= "form-name" value="contact"/>
 
