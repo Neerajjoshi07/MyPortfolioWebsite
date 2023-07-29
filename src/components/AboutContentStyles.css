@@ -1,0 +1,42 @@
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+.about .left h1{
+    margin-bottom: 1.2rem;
+ }
+
+.about .left .btn{
+    margin-top: 1.2rem;
+ }
+
+.about .right{
+    max-width: 700px;
+} 
+
+.right .img{
+    max-width: 90%;
+    border-radius: 50%;
+    border:14px solid rgba(212, 212, 212, 0.281);
+}
+@media screen and (max-width: 640px){
+    .right .img{
+        margin-left: 1.3rem;
+    }
+}
+
+    
+
+
+
