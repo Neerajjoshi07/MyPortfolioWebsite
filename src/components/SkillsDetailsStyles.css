@@ -23,7 +23,7 @@ h2{
 }
 
 @media screen and (max-width: 740px){
-    .img-container{
+    .skills-container .img-container{
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
